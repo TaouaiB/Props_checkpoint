@@ -5,14 +5,14 @@ import { Button } from 'react-bootstrap'
 function PlayersCards({joueur}) {
 
     const cardContainerStyle = {
-      width: '48%', // Adjust the width to fit two cards side by side
+      width: '48%', 
       marginBottom: '20px',
-      display: 'inline-block', // Display cards inline
+      display: 'inline-block',
       background: `url(${joueur.imgUrl}) center/cover`,
       borderRadius: '8px',
-      minHeight: '300px', // Set a minimum height for consistent size
+      minHeight: '300px',
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-      boxSizing: 'border-box' // Include padding and border in the width calculation
+      boxSizing: 'border-box',
     };
 
     const cardStyle = {
